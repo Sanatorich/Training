@@ -7,7 +7,6 @@
 
 
 body1 {
-  background-color: #242333;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -119,4 +118,7 @@ p.text{
 
 p.text span{
     color: rgb(158, 248, 158);
+}
+body1 {
+  color:aqua
 }
