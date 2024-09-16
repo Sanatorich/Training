@@ -1,0 +1,288 @@
+html {
+  height: 100%;
+}
+
+body {
+  width: auto;
+  height: auto;
+  font-family: 'Roboto', sans-serif;
+  background-color: #0e0f0f;
+  color: #fff;
+}
+
+.herobg {
+  background-image: url('img/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.curtain {
+  background-image: url('img/redbg.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.content h1 {
+  color: #fff;
+  font-size: 46px;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.content h2 {
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 0px !important;
+}
+
+.content h3 {
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.post-comment {
+  opacity: 0.7;
+}
+
+.subtitle a, .subtitle a:hover, .title a, .title a:hover {
+  text-decoration: none;
+}
+
+.welcome-cont {
+  background-color: #fff;
+}
+
+.tag:not(body) {
+  background-color: #af0f0f;
+  color: white;
+}
+
+.date {
+  color: white;
+  font-size: 0.9rem;
+}
+
+.all-news {
+  text-align: left;
+}
+
+.darklink {
+  color: #000;
+  text-decoration: none;
+}
+
+.log-icon {
+  margin-left: 5px;
+}
+
+.booking-col {
+  background-color: #fff;
+}
+
+hr {
+  background-color: #2a2a2a;
+}
+
+.welcome {
+  color: #fff;
+}
+
+.content ul {
+  margin-left: 0px;
+}
+
+.tickets {
+  color: #4a4a4a;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+
+.ticket-icon {
+  color: #4a4a4a;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.movie-card {
+  height: 100%;
+}
+
+.movie-title {
+  color: #4a4a4a !important;
+  font-size: 22px !important;
+  font-weight: bold !important;
+}
+
+figure img {
+  object-fit: cover;
+}
+
+.gray {
+  color: #4a4a4a;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #ccc;
+  text-decoration: underline;
+}
+
+.navbar {
+  width: 100%;
+  color: white;
+  background-color: #af0f0f;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+a.navbar-item:hover {
+  color: #af0f0f;
+}
+
+.active {
+  color: white;
+  background-color: #111111;
+}
+
+.button {
+  border-radius: 3px;
+  border: none;
+  background-color: #af0f0f;
+  color: white;
+}
+
+.button:hover {
+  background-color: #d81c1c;
+  color: white;
+}
+
+.button:focus {
+  color: white;
+}
+
+.card-content.login {
+  background-color: white;
+  border: none;
+  padding: 20px;
+}
+
+.label {
+  font-weight: lighter;
+}
+
+/* PROFILE STYLING */
+.profile {
+  color: #4a4a4a;
+}
+
+.profile-heading {
+  box-shadow: 0 2px 3px rgba(10, 10, 10, .1), 0 0 0 1px rgba(10, 10, 10, .1);
+  background-color: white;
+}
+
+.profile-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #af0f0f;
+}
+
+.profile-menu li {
+  float: left;
+}
+
+.profile-menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.profile-menu li a:hover {
+  background-color: #111111;
+}
+
+.stat-val {
+  font-size: 2.8em;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+.stat-key {
+  font-size: 1.4em;
+  font-weight: 200
+}
+
+.section.profile-heading .column.is-2-tablet.has-text-centered+.has-text-centered {
+  border-left: 1px dotted rgba(0, 0, 0, .2);
+}
+
+.container.profile {
+  margin-top: 1%;
+}
+
+.control.is-pulled-left span.select {
+  margin-right: 5px;
+  border-radius: 2px;
+}
+
+.modal-card .content h1 {
+  padding: 40px 10px 10px;
+  border-bottom: 1px solid #dadada
+}
+
+.container.profile .profile-options .tabs ul li.link a {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #F1F1F1;
+}
+
+/* FOOTER STYLING */
+.footer {
+  background-color: #0e0f0f;
+  color: white;
+  padding: 50px;
+  margin-bottom: auto;
+}
+
+.footer strong {
+  color: rgb(0, 0, 0);
+}
+.TnITTtw-fp-collapsed-button {
+  display: none!important;
+}
+.wrap-menu .navbar-burger {
+  color: #ffffff;
+}
+.wrap-menu .navbar a {
+  color: black;
+  text-decoration: none;
+}
+.wrap-menu .navbar-menu {
+  color: white;
+  background-color: #111111;
+}
+.wrap-menu .navbar-menu.active {
+  color: white;
+  background-color: #111111;
+}
+@media (min-width: 1088px){
+  .navbar-menu {
+    display: flex !important;
+  }
+}
